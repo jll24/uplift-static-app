@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/logo.png">
+    <title>AltitudeFX</title>
+</head>
+<body>
+    <!-- Navbar/Menu -->  
+    <nav>
+        <!-- Hamburger Button for Menu (Mobile only)-->
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="material-icons menu">menu</i>
+        </label>
+        <label class="logo1">AFX</label>
+        <label class="logo2">AltitudeFX</label>
+        
+        <!-- This will only show on desktop view -->
+        <ul class="desktop">
+            <li><a href="#" id="list">About Us</a></li>
+            <li><a href="#" id="list">Education</a></li>
+            <li><a href="#" id="list">Partnerships</a></li>
+            <li><a href="#" id="list">FAQ</a></li>
+        </ul>
+        <input type="button" value="Login" class="nav-btn outline">
+        <input type="button" value="Signup" class="nav-btn fill">
+        
+        <!-- This will only show on mobile/iPad view -->
+        <ul class="mobile">
+            <li><a href="#" id="list">About Us</a></li>
+            <li><a href="#" id="list">Education</a></li>
+            <li><a href="#" id="list">Partnerships</a></li>
+            <li><a href="#" id="list">FAQ</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contents -->
+    <section>
+        <div class="material-icons support-btn">comment</div> 
+        <!-- 1st Section: Intro -->
+        <div class="sect intro">
+            <div class="txtset">
+                <h1>A Life Changing Moment</h1>
+                <p>The easiest way to reach financial heights.</p>
+                
+                <!-- Login Form Popup (HTML and CSS only) -->
+                <div class="center">
+                    <input type="checkbox" id="show">
+                    <label for="show" class="show-btn">Start Trading — It's Free</label>
+                    <div class="container">
+                        <label for="show" class="material-icons close-btn">close</label>
+                        <div class="text">
+                            AltitudeFX
+                        </div>
+                        <form>
+                            <div class="data">
+                                <input type="email" placeholder="Username or email" required>
+                            </div>
+                            <div class="data">
+                                <input type="password" placeholder="Password" required>
+                            </div>
+                            <div class="forgot-pass">
+                                <a href="#">Forgot Password?</a>
+                            </div>
+                            <div class="btn">
+                                <div class="inner"></div>
+                                <button type="submit">LOGIN</button>
+                            </div>
+                            <div class="signup-link">
+                                Not a member? <a href="#">Signup now</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="./assets/trade0.png" alt="AltitudeFX (Mobile)">
+            </div>
+        </div>
+        
+        <!-- 2nd Section: News, Latest Updates, Events -->
+        <div class="sect news">
+            <div class="txtset">
+                <h1>The Latest from AltitudeFX</h1>
+                <p>News features, latest webinars, market reports and more...</p>
+            </div>
+            <div class="blockset">
+                <a href="https://www.institutionalassetmanager.co.uk/2021/08/09/304661/investors-brace-increased-foreign-exchange-volatility" class="contents assets">
+                    <h3>50 NEW ASSETS</h3>
+                </a>
+                <a href="https://www.topratedforexbrokers.com/bonus/" class="contents xp">
+                    <h3>MORE REWARDS!</h3><br>
+                    <h5>More bonuses for verified users.</h5>
+                </a>
+                <a href="https://www.fxempire.com/news/article/tmgm-breaks-record-in-trading-volume-763989" class="contents fest">
+                    <h3>TRADE FEST 2021</h3><br>
+                    <h5>Unleash your skills and win prizes.</h5>
+                </a>
+            </div>
+        </div>
+        
+        <!-- 3rd Section: Device Compatibility, App Rating -->
+        <div class="sect device">
+            <div class="txtset">
+                <h1>Smoothness on Any Device</h1>
+                <p>Whether you prefer trading at your desk or on the go — AltitudeFX has got you covered.</p>
+            </div>
+            <div class="image">
+                <img src="./assets/trade1.png" alt="AltitudeFX (Mobile)" id="image">
+                <div class="apps">
+                    <p id="limitedwidth">The custom-built platform has been adapted for any device you may choose and switching is 100% seamless.</p>
+                    
+                    <!-- User Feedback Text Slide with Line Indicator -->
+                    <div class="contents rating">
+                        <h1>5.0 <i class="material-icons star">star</i><i class="material-icons star">star</i><i class="material-icons star">star</i><i class="material-icons star">star</i><i class="material-icons star">star</i></h1>
+                        <div class="hwrap">
+                            <input type="radio" name="feedbacks" id="feedback1" checked>
+                            <input type="radio" name="feedbacks" id="feedback2">
+                            <input type="radio" name="feedbacks" id="feedback3">
+                            <div class="hslide" id="one">
+                                <p>User-friendly interface with lots of useful tools.</p>
+                                    <label for="feeback3" class="pre"></label>
+                                    <label for="feeback2" class="nxt"></label>
+                            </div>
+                            <div class="hslide" id="two">
+                                <p>Forex trading has never been this easy.</p>
+                                    <label for="feeback1" class="pre"></label>
+                                    <label for="feeback3" class="nxt"></label>
+                            </div>
+                            <div class="hslide" id="three">
+                                <p>I wish I knew about AltitudeFX sooner.</p>
+                                    <label for="feeback2" class="pre"></label>
+                                    <label for="feeback1" class="nxt"></label>
+                            </div>
+                            <div class="dot0">
+                                <label for="feedback1" id="dot1" class="dots"></label>
+                                <label for="feedback2" id="dot2" class="dots"></label>
+                                <label for="feedback3" id="dot3" class="dots"></label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- This displays as a Button and opens a new page of App Store -->
+                    <form action="https://play.google.com/store/apps" target="_blank">
+                        <input type="submit" value="DOWNLOAD THE APP" class="gold-btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 4th Section: Perks of Using the Platform -->
+        <div class="sect perks">
+            <div class="txtset">
+                <h1>Let AltitudeFX Work For You</h1>
+                <p>The key features from a trader's perspective.</p>
+            </div>
+            <div class="features">
+                <div class="contents">
+                    <i class="material-icons risk">verified_user</i>
+                    <h3>RISK-FREE TRADES</h3><br>
+                    <h5 id="smallwidth">Explore the platform and test strategies for free.</h5>
+                </div>
+                <div class="contents">
+                    <i class="material-icons trending">trending_up</i>
+                    <h3>DEMO ACCOUNT</h3><br>
+                    <h5 id="smallwidth">10,000 in virtual funds to practice and learn.</h5>
+                </div>
+                <div class="contents">
+                    <i class="material-icons market">assessment</i>
+                    <h3>MARKET</h3><br>
+                    <h5 id="smallwidth">Customize the platform with unique tools to elevate your trading skills.</h5>
+                </div>
+                <div class="contents">
+                    <i class="material-icons person">person</i>
+                    <h3>PERSONAL MANAGER</h3><br>
+                    <h5 id="smallwidth">Get exclusive one-on-one guidance with a trading expert.</h5>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 5th Section: Payment Affiliations -->
+        <div class="sect affiliation">
+            <div class="txtset">
+                <h1>No limits. <br> No commission. <br> No delays.</h1>
+                <p>Quick and easy deposits and withdrawals.</p>
+            </div>
+            <div class="payments">
+                <div class="block">
+                    <img src="./assets/banks.png" alt="banks" id="banks">
+                </div>
+                <div class="block">
+                    <img src="./assets/coinsph.png" alt="coins.ph" id="coins">
+                </div>
+                <div class="block">
+                    <img src="./assets/gcash.png" alt="GCash" id="gcash">
+                </div>
+                <div class="block">
+                    <img src="./assets/grab.png" alt="GrabPay" id="grab">
+                </div>
+                <div class="block">
+                    <img src="./assets/paymaya.png" alt="PayMaya" id="paymaya">
+                </div>
+                <div class="block more">9+</div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer: Copyright, T and C, Disclaimer -->
+    <footer>
+        <div class="footer1">
+            <h2>AltitudeFX</h2><br>
+            <div class="footer2">
+                <h6>© 2021 AltitudeFX.</h6>
+                <h6>All rights reserved.</h6><br>
+                <h6>Transactions with financial instruments offered on the Website involve substantial risk and trading may be very risky. If you make Transactions with the financial instruments offered on this Website, you might incur substantial losses or even lose everything in your Account. Before you decide to start Transactions with the financial instruments offered on the Website, you must review the Service Agreement and Risk Disclosure Information.</h6>
+            </div>
+            <div class="footer3">
+                <p id="footer">Regulation</p>
+                <p id="footer">Legal Information</p>
+                <p id="footer">Privacy Policy</p>
+                <p id="footer">Terms and Condition</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
