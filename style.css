@@ -451,32 +451,6 @@ p {
   color: goldenrod;
 }
 
-/* PAYMENTS */
-.payments {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-.block {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
-  width: 140px;
-  margin: 25px 10px;
-}
-#banks,
-#coins,
-#gcash,
-#grab,
-#paymaya,
-.more {
-  overflow: hidden;
-  border-radius: 20px;
-}
-.more {
-  background-color: rgb(63, 63, 63);
-}
 .footer1 {
   display: flex;
   flex-direction: column;
